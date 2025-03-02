@@ -1,6 +1,6 @@
 package com.makeup.repository;
 
-import com.makeup.model.MakeupProduct; // Обновлен импорт
+import com.makeup.model.MakeupProduct;
 import org.springframework.stereotype.Repository;
 
 import java.util.HashMap;
@@ -20,6 +20,6 @@ public class MakeupRepository {
     }
 
     public Map<String, MakeupProduct> getAllProducts() {
-        return new HashMap<>(products); // Возвращаем копию
+        return new HashMap<>(products);
     }
 }
